@@ -1,3 +1,14 @@
+''''
+Mini challenge — apply both topics together
+
+Create a dataset: 50 students, each with scores in 3 subjects (make it up using numpy)
+Store it as a matrix (50 × 3)
+Compute: mean score per subject, std per subject
+Find which student has the highest total score (sum across 3 subjects)
+Plot a histogram of total scores
+'''
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 

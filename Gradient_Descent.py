@@ -1,3 +1,14 @@
+'''
+Visualize Gradient Descent in Code
+
+Plot f(x) = x² using matplotlib — a simple parabola
+Start at x = 10. Apply gradient descent manually: derivative of x² is 2x, so update x = x − 0.1 * 2x
+Run this for 20 iterations, print x each time — watch it move toward 0
+Try learning rate = 0.01, then 0.9, then 1.1 — observe what happens in each case
+Plot the path of x on the parabola — see it descend visually
+
+'''
+
 import numpy as np 
 import matplotlib.pyplot as plt
 

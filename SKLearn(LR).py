@@ -1,3 +1,15 @@
+'''
+Now use Sklearn — Compare with your version
+
+Use the same dataset from above
+from sklearn.linear_model import LinearRegression
+Fit the model, get predictions, compute R² score
+Compare sklearn's weights with the weights your scratch model found
+Try on a real dataset: load Boston Housing or California Housing from sklearn.datasets
+Check R² score — is the model any good?
+'''
+
+
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score

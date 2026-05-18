@@ -1,3 +1,15 @@
+'''
+Do NOT use sklearn yet — build it yourself with numpy
+Create fake data: house sizes [500,750,1000,1250,1500] and prices [150,200,250,300,350]
+Initialize weights w=0, b=0
+Write the predict function: y_hat = w*x + b
+Write the MSE loss function
+Compute gradients manually: dw = mean(2 * x * (y_hat - y)), db = mean(2 * (y_hat - y))
+Run gradient descent for 500 iterations, learning rate = 0.000001
+Print loss every 100 steps — watch it decrease
+Plot the final line over your data points
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 
